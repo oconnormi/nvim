@@ -7,7 +7,8 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
-  { import = "astrocommunity.colorscheme.neosolarized-nvim"},
+  { import = "astrocommunity.colorscheme.neosolarized-nvim" },
+  { import = "astrocommunity.colorscheme.nightfox-nvim" },
 
   -- Test Support
   { import = "astrocommunity.test.neotest" },
@@ -20,8 +21,16 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.toml" },
-  { import = "astrocommunity.pack.yaml"},
+  { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.ruby" },
 
   -- Navigation
-  { import = "astrocommunity.motion.leap-nvim" }
+  { import = "astrocommunity.motion.leap-nvim" },
+
+  -- Diagnostics
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+
+  -- Editing
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
 }
