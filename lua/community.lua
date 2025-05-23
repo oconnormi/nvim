@@ -5,10 +5,11 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" },
+  -- { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
   { import = "astrocommunity.colorscheme.neosolarized-nvim" },
   { import = "astrocommunity.colorscheme.nightfox-nvim" },
+  { import = "astrocommunity.colorscheme.neosolarized-nvim" },
 
   -- Test Support
   { import = "astrocommunity.test.neotest" },
@@ -24,6 +25,7 @@ return {
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.ruby" },
+  { import = "astrocommunity.pack.rust" },
 
   -- Navigation
   { import = "astrocommunity.motion.leap-nvim" },
@@ -33,4 +35,6 @@ return {
 
   -- Editing
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  -- Completion
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
